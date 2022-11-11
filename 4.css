@@ -1,0 +1,149 @@
+
+*{
+	font-family: Arial;
+	font-size: 13px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+background-color:#edeef0;
+margin-bottom: 25px;
+}
+
+ A { 
+ color: #2e5473;
+ text-decoration: none; 
+ }
+
+ A:hover {
+ background-color: green;
+ }
+ 
+ ::selection {
+ 	color: white;
+    background-color: green;
+ }
+ 
+ main::first-letter { 
+ 	color:red;
+    font-size: 25px; 
+}
+
+ .Line {
+ height: 2px;
+ background-color: #d0d0d0;
+ margin : 5px 0px;
+ }
+ 
+ .nav {
+ 	list-style: none;
+  	float: left;
+  	width: 165px;
+	  margin-top: 15px;
+  	/*padding: 30px 30px 30px 30px;*/
+  
+ } 
+
+ .FlexContainerRightBlock{
+ float: right;
+ width: 125px;
+ }
+
+ .FlexItemRightBlock{
+	background-color: white;
+ 	padding: 5px;
+    margin: 15px 0px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px
+ }
+ .FlexItemRightBlock div{
+	background-color:#edeef0;
+	margin: 10px 0px;
+ }
+
+ .nav a{
+ 	display: block;
+    /*margin: 10px;*/
+	padding: 10px;
+ }
+
+ .FlexContainerContent{
+ 	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 165px;
+    right: 250px;
+ }
+ 
+ .FlexItemContent{
+ 	
+ 	background-color: white;
+ 	padding: 10px;
+    margin: 15px;
+ 	text-align: justify;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px
+    
+ }
+ 
+ .header{
+	 background-color: #507299;
+     color: white;
+	 margin-bottom: 0;
+	 text-align: center;
+	 height:45px; 
+	 vertical-align: center;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 font-size: 25px;
+ }
+ 
+ .footer{
+     color: #d0d0d0;
+	 background-color: white;
+	 text-align: center;
+	 height:25px; 
+	 vertical-align: center;
+	 padding-top: 3px;
+	 padding-bottom:3px;
+	 font-size:15px;
+	 width: 100%;
+     
+ }
+ 
+ .page{
+     position: absolute;
+     top: 45px;
+     bottom: 25px;
+     left: 50%;
+     margin-left: -400px;
+     
+ }
+
+ .Like{
+	float: left;
+ }
+
+ .Comment{
+	text-align: end;
+ }
+
+ .FlexItemContent img {
+    width: 100%;
+    }
+
+.header img{
+	margin-left: -70%;
+}
+
+ @media (min-width:800px){
+  .page{
+	 width: 800px; 
+     margin-bottom: 25 px;
+    
+ }
+ }
